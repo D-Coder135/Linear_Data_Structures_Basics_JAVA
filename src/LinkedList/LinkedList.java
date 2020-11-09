@@ -39,7 +39,7 @@ public class LinkedList {
         newNode.data = data;
         newNode.next = null;
         newNode.next = head; // Being the first node, it should store the address of the next node.
-
+        head = newNode;
     }
 
     public void print() {
