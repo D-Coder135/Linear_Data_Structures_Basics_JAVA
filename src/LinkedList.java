@@ -19,6 +19,8 @@ public class LinkedList {
 
         if (head == null) {
             head = node;
+        } else {
+
         }
     }
 }
