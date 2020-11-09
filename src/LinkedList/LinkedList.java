@@ -50,7 +50,7 @@ public class LinkedList {
         if (index == 0) {
             insertAtStart(data);
         } else {
-
+            Node temporaryNode = head;
         }
 
     }
