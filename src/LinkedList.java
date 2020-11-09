@@ -10,15 +10,15 @@ public class LinkedList {
     Node head;
 
     public void insert(int data) {
-        Node node = new Node(); // Every time data is inserted, it will be inserted in a new node.
-        node.data = data;
-        node.next = null;
+        Node newNode = new Node(); // Every time data is inserted, it will be inserted in a new node.
+        newNode.data = data;
+        newNode.next = null;
 
         // If the value is inserted for the first time i.e. no other value was present before this value was added.
         // For that, checking the condition and assigning the node containing the first value as head.
 
         if (head == null) {
-            head = node;
+            head = newNode;
         } else {
             Node temporaryNode = head; // For traversing between different nodes.
             while (temporaryNode.next != null) {
