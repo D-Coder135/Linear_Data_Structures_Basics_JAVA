@@ -21,6 +21,9 @@ public class LinkedList {
             head = node;
         } else {
             Node temporaryNode = head; // For traversing between different nodes.
+            while (temporaryNode.next != null) {
+
+            }
 
         }
     }
