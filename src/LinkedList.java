@@ -14,6 +14,8 @@ public class LinkedList {
         node.data = data;
         node.next = null;
 
+        // If the value is inserted for the first time i.e. no other value was present before this value was added.
+        // For that, checking the condition and assigning the node containing the first value as head.
 
         if (head == null) {
             head = node;
