@@ -34,7 +34,7 @@ public class Execution {
                 int indexValue = scanner.nextInt();
                 list.insertAt(indexValue, value);
             } else {
-
+                System.err.println("Wrong Choice!");
             }
             /*System.out.println("Where you want to insert this value?" +
                     "1. At Start." +
