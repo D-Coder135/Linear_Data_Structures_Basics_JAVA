@@ -51,8 +51,8 @@ public class LinkedList {
             insertAtStart(data);
         } else {
             Node temporaryNode = head;
-            for (int index = 0; index < indexValue; index++) {
-
+            for (int index = 0; index < indexValue - 1; index++) {
+                temporaryNode = temporaryNode.next;
             }
         }
 
