@@ -34,7 +34,7 @@ public class LinkedList {
         Node temporaryNode = new Node();
 
         while (temporaryNode.next != null) {
-
+            System.out.println(temporaryNode.data);
         }
     }
 }
