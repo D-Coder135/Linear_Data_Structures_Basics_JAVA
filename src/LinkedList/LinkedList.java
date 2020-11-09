@@ -38,7 +38,8 @@ public class LinkedList {
         Node newNode = new Node(); // Every time data is inserted, it will be inserted in a new node.
         newNode.data = data;
         newNode.next = null;
-        newNode.next = head;
+        newNode.next = head; // Being the first node, it should store the address of the next node.
+
     }
 
     public void print() {
