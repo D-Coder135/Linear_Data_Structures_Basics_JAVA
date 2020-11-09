@@ -21,6 +21,7 @@ public class Execution {
             System.out.println("1. At the Start.");
             System.out.println("2. At the End.");
             System.out.println("3. At some random index.");
+            int choice = scanner.nextInt();
 
             /*System.out.println("Where you want to insert this value?" +
                     "1. At Start." +
@@ -40,8 +41,6 @@ public class Execution {
             */
         }
             numberOfValues -= 1;
-        }
-
         System.out.println("The final list is: ");
         list.print();
     }
