@@ -11,6 +11,6 @@ public class Execution {
         LinkedList list = new LinkedList();
         Scanner scanner = new Scanner(System.in);
         System.out.println("How many values you want to insert?");
-
+        int numberOfValues = scanner.nextInt();
     }
 }
