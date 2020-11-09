@@ -66,6 +66,7 @@ public class LinkedList {
             head = head.next;
         } else {
             Node temporaryNode = head;
+            Node anotherTemporaryNode = null;
         }
     }
 
