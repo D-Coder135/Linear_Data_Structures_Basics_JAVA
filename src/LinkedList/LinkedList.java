@@ -57,7 +57,6 @@ public class LinkedList {
             newNode.next = temporaryNode.next; // New node will have the address for the node succeeding it.
             temporaryNode.next = newNode; // Preceding node will have the address for the newly inserted node.
         }
-
     }
 
     public void print() {
