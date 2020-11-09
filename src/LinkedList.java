@@ -29,4 +29,8 @@ public class LinkedList {
             temporaryNode.next = newNode; // This will make the next property of the node as not null.
         }
     }
+
+    public void print() {
+
+    }
 }
