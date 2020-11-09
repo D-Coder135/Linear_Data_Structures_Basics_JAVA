@@ -15,14 +15,19 @@ public class Execution {
         int numberOfValues = scanner.nextInt();
 
         while (numberOfValues != 0) {
+
             System.out.println("Enter " + numberOfValues + " more values to insert: ");
             int value = scanner.nextInt();
+
             System.out.println("Where you want the value to be inserted? Please enter the choice as mentioned below: ");
             System.out.println("1. At the Start.");
             System.out.println("2. At the End.");
             System.out.println("3. At some random index.");
             int choice = scanner.nextInt();
 
+            if (choice == 1) {
+
+            }
             /*System.out.println("Where you want to insert this value?" +
                     "1. At Start." +
                     "2. At End" +
