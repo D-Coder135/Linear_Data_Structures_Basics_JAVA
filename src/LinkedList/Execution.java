@@ -26,7 +26,7 @@ public class Execution {
             int choice = scanner.nextInt();
 
             if (choice == 1) {
-
+                list.insertAtStart(value);
             }
             /*System.out.println("Where you want to insert this value?" +
                     "1. At Start." +
