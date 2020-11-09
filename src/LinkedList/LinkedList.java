@@ -54,8 +54,8 @@ public class LinkedList {
             for (int index = 0; index < indexValue - 1; index++) {
                 temporaryNode = temporaryNode.next; // Traversing till the node just before the indexValue inputted.
             }
-            newNode.next = temporaryNode.next;
-            temporaryNode.next = newNode;
+            newNode.next = temporaryNode.next; // New node will have the address for the node succeeding it.
+            temporaryNode.next = newNode; // Preceding node will have the address for the newly inserted node.
         }
 
     }
