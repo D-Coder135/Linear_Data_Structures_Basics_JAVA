@@ -52,7 +52,7 @@ public class LinkedList {
         } else {
             Node temporaryNode = head;
             for (int index = 0; index < indexValue - 1; index++) {
-                temporaryNode = temporaryNode.next;
+                temporaryNode = temporaryNode.next; // Traversing till the node just before the indexValue inputted.
             }
         }
 
