@@ -31,6 +31,6 @@ public class LinkedList {
     }
 
     public void print() {
-
+        Node temporaryNode = new Node();
     }
 }
