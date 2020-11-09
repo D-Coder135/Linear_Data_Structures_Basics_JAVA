@@ -60,13 +60,16 @@ public class LinkedList {
         }
     }
 
-    public void deleteAt(int index) {
+    public void deleteAt(int indexValue) {
 
-        if (index == 0) {
+        if (indexValue == 0) {
             head = head.next;
         } else {
             Node temporaryNode = head;
             Node anotherTemporaryNode = null;
+            for (int index = 0; index < indexValue; index++) {
+
+            }
         }
     }
 
