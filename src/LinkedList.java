@@ -22,7 +22,7 @@ public class LinkedList {
         } else {
             Node temporaryNode = head; // For traversing between different nodes.
             while (temporaryNode.next != null) {
-
+                temporaryNode = temporaryNode.next;
             }
 
         }
