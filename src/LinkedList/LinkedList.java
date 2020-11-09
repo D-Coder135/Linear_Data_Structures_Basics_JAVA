@@ -1,8 +1,9 @@
-package LinkedList;/* Created By IntelliJ IDEA
+/* Created By IntelliJ IDEA
  *  Author: Devansh Shukla (D-Coder135)
  *  Date: 09-11-2020
  *  Time: 06:44 PM
  */
+package LinkedList;
 
 public class LinkedList {
     /*Important Points about Linked List -->
@@ -57,6 +58,10 @@ public class LinkedList {
             newNode.next = temporaryNode.next; // New node will have the address for the node succeeding it.
             temporaryNode.next = newNode; // Preceding node will have the address for the newly inserted node.
         }
+    }
+
+    public void deleteAt(int index) {
+
     }
 
     public void print() {
