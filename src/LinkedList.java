@@ -20,7 +20,8 @@ public class LinkedList {
         if (head == null) {
             head = node;
         } else {
-            Node temporaryNode = head;
+            Node temporaryNode = head; // For traversing between different nodes.
+
         }
     }
 }
