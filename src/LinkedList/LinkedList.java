@@ -70,6 +70,8 @@ public class LinkedList {
             for (int index = 0; index < indexValue; index++) {
                 temporaryNode = temporaryNode.next;
             }
+            anotherTemporaryNode = temporaryNode.next;
+            temporaryNode.next = anotherTemporaryNode.next;
         }
     }
 
