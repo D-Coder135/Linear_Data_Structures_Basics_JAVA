@@ -54,6 +54,8 @@ public class LinkedList {
             for (int index = 0; index < indexValue - 1; index++) {
                 temporaryNode = temporaryNode.next; // Traversing till the node just before the indexValue inputted.
             }
+            newNode.next = temporaryNode.next;
+            temporaryNode.next = newNode;
         }
 
     }
