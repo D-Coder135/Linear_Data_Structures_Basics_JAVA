@@ -13,7 +13,7 @@ public class LinkedList {
      */
     Node head;
 
-    public void insert(int data) {
+    public void insertAtEnd(int data) {
         Node newNode = new Node(); // Every time data is inserted, it will be inserted in a new node.
         newNode.data = data;
         newNode.next = null;
