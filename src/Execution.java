@@ -15,6 +15,7 @@ public class Execution {
         while (numberOfValues != 0) {
             System.out.println("Enter " + numberOfValues + "more values to insert: ");
             int value = scanner.nextInt();
+            list.insert(value);
         }
     }
 }
