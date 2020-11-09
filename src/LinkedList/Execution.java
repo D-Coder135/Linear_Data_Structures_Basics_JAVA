@@ -44,6 +44,7 @@ public class Execution {
         if (choice.equalsIgnoreCase("Yes")) {
             System.out.println("Enter the index value for deletion of data: ");
             int index = scanner.nextInt();
+            list.deleteAt(index);
         }
         System.out.println("The final list is: ");
         list.print();
