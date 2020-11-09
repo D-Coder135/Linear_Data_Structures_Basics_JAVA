@@ -5,8 +5,12 @@ package LinkedList;/* Created By IntelliJ IDEA
  */
 
 public class LinkedList {
-
-    // In Linked List, the first node is considered as the head node.
+    /*Important Points about Linked List -->
+    1. In Linked List, the first node is considered as the head node.
+    2. Advantages of Linked List over arrays are -->
+     a. The size of the Linked List is not fixed like arrays i.e. we can add or remove elements whenever we want.
+     b. We can insert values in a Linked List from start, in the middle or at the end.
+     */
     Node head;
 
     public void insert(int data) {
