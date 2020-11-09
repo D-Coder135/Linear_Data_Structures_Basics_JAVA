@@ -48,7 +48,7 @@ public class LinkedList {
         newNode.next = null;
 
         if (index == 0) {
-
+            insertAtStart(data);
         }
     }
 
