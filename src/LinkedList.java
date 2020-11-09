@@ -22,6 +22,8 @@ public class LinkedList {
         } else {
             Node temporaryNode = head; // For traversing between different nodes.
             while (temporaryNode.next != null) {
+
+                // This will travel from node to node in a series until the next block of the node contains null value.
                 temporaryNode = temporaryNode.next;
             }
 
