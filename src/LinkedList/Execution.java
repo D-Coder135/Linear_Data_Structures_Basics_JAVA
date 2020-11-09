@@ -31,7 +31,7 @@ public class Execution {
                 list.insertAtEnd(value);
             } else if (choice == 3) {
                 System.out.println("Enter the index value at which you want to insert the value: ");
-
+                int indexValue = scanner.nextInt();
             }
             /*System.out.println("Where you want to insert this value?" +
                     "1. At Start." +
