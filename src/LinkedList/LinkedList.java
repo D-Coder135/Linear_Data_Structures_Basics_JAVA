@@ -47,6 +47,9 @@ public class LinkedList {
         newNode.data = data;
         newNode.next = null;
 
+        if (index == 0) {
+
+        }
     }
 
     public void print() {
