@@ -10,13 +10,18 @@ public class Execution {
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
         Scanner scanner = new Scanner(System.in);
+
         System.out.println("How many values you want to insert?");
         int numberOfValues = scanner.nextInt();
+
         while (numberOfValues != 0) {
             System.out.println("Enter " + numberOfValues + "more values to insert: ");
             int value = scanner.nextInt();
             list.insert(value);
             numberOfValues -= 1;
         }
+
+        System.out.println("The final list is: ");
+        list.print();
     }
 }
