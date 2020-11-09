@@ -45,6 +45,8 @@ public class Execution {
             System.out.println("Enter the index value for deletion of data: ");
             int index = scanner.nextInt();
             list.deleteAt(index);
+            System.out.println("Final list after deletion of data --> ");
+            list.print();
         } else {
             System.out.println("The final list is: ");
             list.print();
