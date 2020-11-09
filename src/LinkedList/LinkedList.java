@@ -66,12 +66,13 @@ public class LinkedList {
             head = head.next;
         } else {
             Node temporaryNode = head;
-            Node anotherTemporaryNode = null;
-            for (int index = 0; index < indexValue; index++) {
+            Node anotherTemporaryNode;
+            for (int index = 0; index < indexValue - 1; index++) {
                 temporaryNode = temporaryNode.next;
             }
-            anotherTemporaryNode = temporaryNode.next;
-            temporaryNode.next = anotherTemporaryNode.next;
+            anotherTemporaryNode = temporaryNode.next; // Store the node which is to be deleted.
+            temporaryNode.next = anotherTemporaryNode.next; /* Store the address of the node succeeding the node at
+                                                             inputted index value.*/
         }
     }
 
