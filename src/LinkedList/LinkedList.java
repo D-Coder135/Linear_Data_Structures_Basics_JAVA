@@ -49,7 +49,10 @@ public class LinkedList {
 
         if (index == 0) {
             insertAtStart(data);
+        } else {
+
         }
+
     }
 
     public void print() {
