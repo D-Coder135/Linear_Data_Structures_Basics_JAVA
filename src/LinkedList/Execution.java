@@ -11,7 +11,6 @@ public class Execution {
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
         Scanner scanner = new Scanner(System.in);
-
         System.out.println("How many values you want to insert?");
         int numberOfValues = scanner.nextInt();
 
@@ -40,6 +39,7 @@ public class Execution {
             numberOfValues -= 1;
         }
 
+        System.out.println("Want to delete any element?");
         System.out.println("The final list is: ");
         list.print();
     }
