@@ -41,6 +41,9 @@ public class Execution {
 
         System.out.println("Want to delete any element?");
         String choice = scanner.next();
+        if (choice.equalsIgnoreCase("Yes")) {
+
+        }
         System.out.println("The final list is: ");
         list.print();
     }
