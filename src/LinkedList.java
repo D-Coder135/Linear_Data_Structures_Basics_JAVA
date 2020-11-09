@@ -14,8 +14,9 @@ public class LinkedList {
         node.data = data;
         node.next = null;
 
-        if (head == null) {
 
+        if (head == null) {
+            head = node;
         }
     }
 }
