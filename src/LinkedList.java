@@ -26,7 +26,7 @@ public class LinkedList {
                 // This will travel from node to node in a series until the next block of the node contains null value.
                 temporaryNode = temporaryNode.next;
             }
-
+            temporaryNode.next = newNode;
         }
     }
 }
