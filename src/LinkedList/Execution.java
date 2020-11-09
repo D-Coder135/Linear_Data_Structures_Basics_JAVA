@@ -30,6 +30,7 @@ public class Execution {
             } else if (choice == 2) {
                 list.insertAtEnd(value);
             } else if (choice == 3) {
+                System.out.println("Enter the index value at which you want to insert the value: ");
 
             }
             /*System.out.println("Where you want to insert this value?" +
