@@ -64,6 +64,8 @@ public class LinkedList {
 
         if (index == 0) {
             head = head.next;
+        } else {
+
         }
     }
 
