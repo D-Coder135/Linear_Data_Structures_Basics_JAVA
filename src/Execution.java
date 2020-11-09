@@ -4,8 +4,11 @@
  *  Time: 07:18 PM
  */
 
+import java.util.Scanner;
+
 public class Execution {
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
+        Scanner scanner = new Scanner(System.in);
     }
 }
