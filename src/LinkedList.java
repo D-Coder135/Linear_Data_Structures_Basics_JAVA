@@ -32,5 +32,9 @@ public class LinkedList {
 
     public void print() {
         Node temporaryNode = new Node();
+
+        while (temporaryNode.next != null) {
+
+        }
     }
 }
