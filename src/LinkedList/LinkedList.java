@@ -42,6 +42,10 @@ public class LinkedList {
         head = newNode; // As the value is inserted at the start, the node should be the head node.
     }
 
+    public void insertAt(int index, int data) {
+
+    }
+
     public void print() {
         Node temporaryNode = head;
 
