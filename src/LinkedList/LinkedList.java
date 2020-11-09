@@ -42,15 +42,18 @@ public class LinkedList {
         head = newNode; // As the value is inserted at the start, the node should be the head node.
     }
 
-    public void insertAt(int index, int data) {
+    public void insertAt(int indexValue, int data) {
         Node newNode = new Node(); // Every time data is inserted, it will be inserted in a new node.
         newNode.data = data;
         newNode.next = null;
 
-        if (index == 0) {
+        if (indexValue == 0) {
             insertAtStart(data);
         } else {
             Node temporaryNode = head;
+            for (int index = 0; index < indexValue; index++) {
+
+            }
         }
 
     }
