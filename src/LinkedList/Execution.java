@@ -43,7 +43,7 @@ public class Execution {
         String choice = scanner.next();
         if (choice.equalsIgnoreCase("Yes")) {
             System.out.println("Enter the index value for deletion of data: ");
-
+            int index = scanner.nextInt();
         }
         System.out.println("The final list is: ");
         list.print();
