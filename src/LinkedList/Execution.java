@@ -33,6 +33,8 @@ public class Execution {
                 System.out.println("Enter the index value at which you want to insert the value: ");
                 int indexValue = scanner.nextInt();
                 list.insertAt(indexValue, value);
+            } else {
+
             }
             /*System.out.println("Where you want to insert this value?" +
                     "1. At Start." +
