@@ -36,24 +36,9 @@ public class Execution {
             } else {
                 System.err.println("Wrong Choice!");
             }
-            /*System.out.println("Where you want to insert this value?" +
-                    "1. At Start." +
-                    "2. At End" +
-                    "3. At some random index");
-            int choice = scanner.nextInt();
-            if (choice == 1) {
-                list.insertAtStart(value);
-            } else if (choice == 2) {
-                list.insertAtEnd(value);
-            } else if (choice == 3) {
-                System.out.println("Enter the index at which you want to insert the value: ");
-                int indexValue = scanner.nextInt();
-                list.insertAt(indexValue, value);
-            } else {
-                System.err.println("Wrong Choice!");
-            */
-        }
             numberOfValues -= 1;
+        }
+
         System.out.println("The final list is: ");
         list.print();
     }
