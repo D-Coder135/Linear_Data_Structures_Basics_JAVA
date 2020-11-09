@@ -46,9 +46,8 @@ public class Execution {
             int index = scanner.nextInt();
             list.deleteAt(index);
         } else {
-
+            System.out.println("The final list is: ");
+            list.print();
         }
-        System.out.println("The final list is: ");
-        list.print();
     }
 }
