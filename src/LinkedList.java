@@ -6,5 +6,5 @@
 
 public class LinkedList {
     // In Linked List, the first node is considered as the head node.
-
+    Node head;
 }
