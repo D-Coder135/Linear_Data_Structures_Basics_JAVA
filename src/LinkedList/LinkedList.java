@@ -73,6 +73,7 @@ public class LinkedList {
             anotherTemporaryNode = temporaryNode.next; // Store the node which is to be deleted.
             temporaryNode.next = anotherTemporaryNode.next; /* Store the address of the node succeeding the node at
                                                              inputted index value.*/
+            anotherTemporaryNode = null;
         }
     }
 
