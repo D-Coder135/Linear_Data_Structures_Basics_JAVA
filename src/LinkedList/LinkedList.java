@@ -68,7 +68,7 @@ public class LinkedList {
             Node temporaryNode = head;
             Node anotherTemporaryNode = null;
             for (int index = 0; index < indexValue; index++) {
-
+                temporaryNode = temporaryNode.next;
             }
         }
     }
