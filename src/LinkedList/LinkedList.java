@@ -34,6 +34,10 @@ public class LinkedList {
         }
     }
 
+    public void insertAtStart(int data) {
+
+    }
+
     public void print() {
         Node temporaryNode = head;
 
