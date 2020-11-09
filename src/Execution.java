@@ -10,5 +10,7 @@ public class Execution {
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
         Scanner scanner = new Scanner(System.in);
+        System.out.println("How many values you want to insert?");
+
     }
 }
