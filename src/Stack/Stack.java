@@ -32,6 +32,10 @@ public class Stack {
         return data;
     }
 
+    public void peekElement() {
+
+    }
+
     public void printStack() {
         for (int element : stack) {
             System.out.print(element + " ");
