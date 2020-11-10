@@ -26,7 +26,7 @@ public class Stack {
 
     public void printStack() {
         for (int element : stack) {
-
+            System.out.print(element + " ");
         }
     }
 }
