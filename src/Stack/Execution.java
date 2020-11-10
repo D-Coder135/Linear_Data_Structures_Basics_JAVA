@@ -31,6 +31,7 @@ public class Execution {
             System.out.println("Stack after peeking the value ---> ");
             stackObject.printStack();
         } else if (choice == 3) {
+            int value = stackObject.popElements();
         }
     }
 }
