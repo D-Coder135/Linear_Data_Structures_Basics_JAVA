@@ -35,6 +35,7 @@ public class Stack {
     public int peekElement() {
         int data;
         data = stack[top - 1];
+        return data;
     }
 
     public void printStack() {
