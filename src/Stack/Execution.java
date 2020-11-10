@@ -33,6 +33,8 @@ public class Execution {
         } else if (choice == 3) {
             int value = stackObject.popElements();
             System.out.println("Value popped from the stack is: " + value);
+            System.out.println("Stack after popping the value ---> ");
+            stackObject.printStack();
         }
     }
 }
