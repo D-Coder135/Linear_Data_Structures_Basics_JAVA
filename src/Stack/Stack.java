@@ -24,7 +24,7 @@ public class Stack {
         top++;
     }
 
-    public int pop() {
+    public int popElements() {
 
     }
 
