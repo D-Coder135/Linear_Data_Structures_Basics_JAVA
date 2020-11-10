@@ -17,6 +17,9 @@ public class Execution {
 
         if (choice == 1) {
             int sizeOfTheStack = 5;
+            while (sizeOfTheStack != 0) {
+
+            }
         }
     }
 }
