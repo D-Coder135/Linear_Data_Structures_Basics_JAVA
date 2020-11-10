@@ -25,6 +25,8 @@ public class Stack {
     }
 
     public void printStack() {
+        for (int element : stack) {
 
+        }
     }
 }
