@@ -24,6 +24,10 @@ public class Stack {
         top++;
     }
 
+    public int pop() {
+
+    }
+
     public void printStack() {
         for (int element : stack) {
             System.out.print(element + " ");
