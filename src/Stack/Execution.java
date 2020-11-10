@@ -18,6 +18,7 @@ public class Execution {
         if (choice == 1) {
             int sizeOfTheStack = 5;
             while (sizeOfTheStack != 0) {
+                System.out.println("Enter " + sizeOfTheStack + " more values to push!");
 
             }
         }
