@@ -28,6 +28,7 @@ public class Stack {
         int data;
         top--;
         data = stack[top];
+        stack[top] = 0;
     }
 
     public void printStack() {
