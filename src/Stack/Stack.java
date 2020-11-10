@@ -40,6 +40,11 @@ public class Stack {
         data = stack[top - 1];
         return data;
     }
+    /* The difference between pop and peek function is that -->
+     *  When we pop any value from the stack, then that value is deleted from the stack and replaced by a zero.
+     *  And when we peek any value from the stack then basically we are searching a value in the stack and fetching it
+     *  without removing that value.
+     */
 
     public void printStack() {
         for (int element : stack) {
