@@ -5,8 +5,11 @@
  */
 package Stack;
 
+import java.util.Scanner;
+
 public class Execution {
     public static void main(String[] args) {
         Stack stackObject = new Stack();
+        Scanner scanner = new Scanner(System.in);
     }
 }
