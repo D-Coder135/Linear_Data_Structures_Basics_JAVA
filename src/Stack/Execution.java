@@ -23,6 +23,8 @@ public class Execution {
                 stackObject.pushElements(value);
                 sizeOfTheStack -= 1;
             }
+            System.out.println("Stack after pushing the values ---> ");
+            stackObject.printStack();
         }
     }
 }
