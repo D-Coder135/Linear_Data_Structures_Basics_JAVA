@@ -19,6 +19,7 @@ public class Stack {
     int[] stack = new int[5]; // Created an array of fixed size.
     int top = 0;
 
+    // Method to add or push values to the stack.
     public void pushElements(int data) {
         stack[top] = data; // Adding values to the array and making it as the top value of the stack.
         top++;
