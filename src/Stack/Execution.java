@@ -21,6 +21,7 @@ public class Execution {
                 System.out.println("Enter " + sizeOfTheStack + " more values to push!");
                 int value = scanner.nextInt();
                 stackObject.pushElements(value);
+                sizeOfTheStack -= 1;
             }
         }
     }
