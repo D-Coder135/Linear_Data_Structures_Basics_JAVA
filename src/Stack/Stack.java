@@ -14,6 +14,8 @@ public class Stack {
 
     // The last value/data which has been pushed in a stack in considered as top.
 
+    // We will have to first create an array of size either dynamic i.e inputted by the end-user or fixed.
+
     public void push(int data) {
 
     }
