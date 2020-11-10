@@ -30,6 +30,7 @@ public class Execution {
             System.out.println("Top most value of the stack is: " + value);
             System.out.println("Stack after peeking the value ---> ");
             stackObject.printStack();
+        } else if (choice == 3) {
         }
     }
 }
