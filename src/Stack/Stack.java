@@ -20,6 +20,6 @@ public class Stack {
     int top = 0;
 
     public void push(int data) {
-        stack[top] = data;
+        stack[top] = data; // Adding values to the array and making it as the top value of the stack.
     }
 }
