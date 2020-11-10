@@ -26,6 +26,7 @@ public class Execution {
             System.out.println("Stack after pushing the values ---> ");
             stackObject.printStack();
         } else if (choice == 2) {
+            int value = stackObject.peekElement();
         }
     }
 }
