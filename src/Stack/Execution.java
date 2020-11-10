@@ -16,7 +16,7 @@ public class Execution {
         int choice = scanner.nextInt();
 
         if (choice == 1) {
-
+            int sizeOfTheStack = 5;
         }
     }
 }
