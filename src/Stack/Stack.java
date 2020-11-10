@@ -33,7 +33,7 @@ public class Stack {
     }
 
     public int peekElement() {
-
+        int data;
     }
 
     public void printStack() {
