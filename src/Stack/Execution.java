@@ -35,6 +35,8 @@ public class Execution {
             System.out.println("Value popped from the stack is: " + value);
             System.out.println("Stack after popping the value ---> ");
             stackObject.printStack();
+        } else {
+
         }
     }
 }
