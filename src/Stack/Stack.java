@@ -32,7 +32,7 @@ public class Stack {
         return data;
     }
 
-    public void peekElement() {
+    public int peekElement() {
 
     }
 
