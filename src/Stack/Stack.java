@@ -29,6 +29,7 @@ public class Stack {
         top--;
         data = stack[top];
         stack[top] = 0;
+        return data;
     }
 
     public void printStack() {
