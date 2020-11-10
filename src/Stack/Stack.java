@@ -20,6 +20,6 @@ public class Stack {
     int top = 0;
 
     public void push(int data) {
-
+        stack[top] = data;
     }
 }
