@@ -21,5 +21,6 @@ public class Stack {
 
     public void push(int data) {
         stack[top] = data; // Adding values to the array and making it as the top value of the stack.
+        top++;
     }
 }
