@@ -19,7 +19,7 @@ public class Execution {
             int sizeOfTheStack = 5;
             while (sizeOfTheStack != 0) {
                 System.out.println("Enter " + sizeOfTheStack + " more values to push!");
-
+                int value = scanner.nextInt();
             }
         }
     }
