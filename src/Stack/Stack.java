@@ -46,6 +46,7 @@ public class Stack {
      *  without removing that value.
      */
 
+    // Method to print the values of the stack.
     public void printStack() {
         for (int element : stack) {
             System.out.print(element + " ");
