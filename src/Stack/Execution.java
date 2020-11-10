@@ -13,6 +13,6 @@ public class Execution {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter your choice -->");
         System.out.println("1. Want to push values." + " " + " 2. Want to peek values." + " " + " 3. Want to pop values.");
-
+        int choice = scanner.nextInt();
     }
 }
