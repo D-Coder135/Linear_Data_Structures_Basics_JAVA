@@ -7,6 +7,6 @@ package Stack;
 
 public class Execution {
     public static void main(String[] args) {
-
+        Stack stackObject = new Stack();
     }
 }
