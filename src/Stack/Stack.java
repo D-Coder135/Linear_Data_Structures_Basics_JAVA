@@ -26,6 +26,7 @@ public class Stack {
 
     public int popElements() {
         int data;
+        top--;
     }
 
     public void printStack() {
