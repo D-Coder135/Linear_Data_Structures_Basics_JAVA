@@ -36,7 +36,7 @@ public class Execution {
             System.out.println("Stack after popping the value ---> ");
             stackObject.printStack();
         } else {
-
+            System.err.println("Wrong Choice!");
         }
     }
 }
