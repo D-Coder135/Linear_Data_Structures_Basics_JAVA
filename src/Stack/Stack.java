@@ -23,4 +23,8 @@ public class Stack {
         stack[top] = data; // Adding values to the array and making it as the top value of the stack.
         top++;
     }
+
+    public void printStack() {
+
+    }
 }
