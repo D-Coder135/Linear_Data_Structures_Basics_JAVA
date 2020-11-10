@@ -27,6 +27,7 @@ public class Execution {
             stackObject.printStack();
         } else if (choice == 2) {
             int value = stackObject.peekElement();
+            System.out.println("Top most value of the stack is: " + value);
         }
     }
 }
