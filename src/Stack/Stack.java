@@ -34,6 +34,7 @@ public class Stack {
         return data;
     }
 
+    // Method to compute the exact size of the stack.
     public int size() {
         return top; // The last value of the field top will be the exact size of the stack.
     }
