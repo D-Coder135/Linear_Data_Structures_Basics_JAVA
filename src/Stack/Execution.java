@@ -21,6 +21,7 @@ public class Execution {
         System.out.println("Stack after pushing the values ---> ");
         stackObject.printStack();
         System.out.println();
+
         System.out.println("Please enter your choice -->");
         System.out.println("1. Want to peek top value." + " " + " 2. Want to pop value.");
         int choice = scanner.nextInt();

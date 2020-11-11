@@ -34,6 +34,10 @@ public class Stack {
         return data;
     }
 
+    public int size() {
+
+    }
+
     // Method to fetch or take out the value from the stack without removing that value.
     public int peekElement() {
         int data;
