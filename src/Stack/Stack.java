@@ -34,7 +34,7 @@ public class Stack {
     public int popElements() {
         int data;
         if (isEmpty()) {
-
+            System.err.println("Stack is underflow. You cannot pop any more values.");
         }
         top--;
         data = stack[top];
