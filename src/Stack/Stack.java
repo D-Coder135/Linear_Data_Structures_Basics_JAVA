@@ -22,7 +22,7 @@ public class Stack {
     // Method to add or push values to the stack.
     public void pushElements(int data) {
         if (top == 5) {
-
+            System.err.println("Sorry the stack is overflow. You cannot push any value now!");
         }
         stack[top] = data; // Adding values to the array and making it as the top value of the stack.
         top++;
