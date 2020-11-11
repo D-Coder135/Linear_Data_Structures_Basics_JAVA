@@ -39,6 +39,7 @@ public class Execution {
             stackObject.printStack();
         } else if (choice == 3) {
             System.out.println("The size of the stack is: " + stackObject.size());
+        } else if (choice == 4) {
         } else {
             System.err.println("Wrong Choice!");
         }
