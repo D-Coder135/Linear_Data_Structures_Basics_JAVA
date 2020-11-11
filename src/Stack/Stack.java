@@ -35,7 +35,7 @@ public class Stack {
     }
 
     public int size() {
-        return top;
+        return top; // The last value of the field top will be the exact size of the stack.
     }
 
     // Method to fetch or take out the value from the stack without removing that value.
