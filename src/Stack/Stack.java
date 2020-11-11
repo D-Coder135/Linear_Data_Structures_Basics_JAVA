@@ -44,6 +44,10 @@ public class Stack {
         return top; // The last value of the field top will be the exact size of the stack.
     }
 
+    public boolean isEmpty() {
+
+    }
+
     // Method to fetch or take out the value from the stack without removing that value.
     public int peekElement() {
         int data;
