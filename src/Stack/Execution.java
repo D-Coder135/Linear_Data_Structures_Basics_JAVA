@@ -38,6 +38,7 @@ public class Execution {
             System.out.println("Stack after popping the value ---> ");
             stackObject.printStack();
         } else if (choice == 3) {
+            System.out.println("The size of the stack is: " + stackObject.size());
         } else {
             System.err.println("Wrong Choice!");
         }
