@@ -23,9 +23,9 @@ public class Stack {
     public void pushElements(int data) {
         if (top == 5) {
             System.err.println("Sorry the stack is overflow. You cannot push any value now!");
+        } else {
+
         }
-        stack[top] = data; // Adding values to the array and making it as the top value of the stack.
-        top++;
     }
 
     //Method to remove or pop the values from the stack.
