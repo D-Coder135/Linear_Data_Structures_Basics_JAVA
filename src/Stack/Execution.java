@@ -41,7 +41,7 @@ public class Execution {
             System.out.println("The size of the stack is: " + stackObject.size());
         } else if (choice == 4) {
             System.out.println("Stack is empty?");
-            stackObject.isEmpty();
+            System.out.println(stackObject.isEmpty());
         } else {
             System.err.println("Wrong Choice!");
         }
