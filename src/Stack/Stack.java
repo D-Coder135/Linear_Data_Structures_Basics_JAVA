@@ -33,6 +33,9 @@ public class Stack {
     //Method to remove or pop the values from the stack.
     public int popElements() {
         int data;
+        if (isEmpty()) {
+
+        }
         top--;
         data = stack[top];
         stack[top] = 0;
