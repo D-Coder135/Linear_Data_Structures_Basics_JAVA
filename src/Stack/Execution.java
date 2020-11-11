@@ -24,7 +24,7 @@ public class Execution {
 
         System.out.println("Please enter your choice -->");
         System.out.println("1. Want to peek top value." + " " + " 2. Want to pop value." + " " +
-                " 3. Want to check the size of the Stack." + " " + " Want to check weather the stack is Empty or not.");
+                " 3. Want to check the size of the Stack." + " " + " 4. Want to check weather the stack is Empty or not.");
         int choice = scanner.nextInt();
 
         if (choice == 1) {
