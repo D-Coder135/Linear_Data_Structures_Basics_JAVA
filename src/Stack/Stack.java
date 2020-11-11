@@ -45,7 +45,7 @@ public class Stack {
     }
 
     public boolean isEmpty() {
-
+        return top <= 0;
     }
 
     // Method to fetch or take out the value from the stack without removing that value.
