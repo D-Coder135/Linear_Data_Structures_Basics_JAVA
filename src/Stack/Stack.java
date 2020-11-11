@@ -21,6 +21,7 @@ public class Stack {
 
     // Method to add or push values to the stack.
     public void pushElements(int data) {
+        // Checking the condition if the stack is overflow i.e full.
         if (top == 5) {
             System.err.println("Sorry the stack is overflow. You cannot push any value now!");
         } else {
