@@ -35,7 +35,7 @@ public class Stack {
     }
 
     public int size() {
-
+        return top;
     }
 
     // Method to fetch or take out the value from the stack without removing that value.
