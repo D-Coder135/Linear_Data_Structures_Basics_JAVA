@@ -37,6 +37,8 @@ public class Stack {
         // Before popping out the values, first checking weather the stack is not underflow or empty.
         if (isEmpty()) {
             System.err.println("Stack is underflow. You cannot pop any more values.");
+        } else {
+
         }
         top--;
         data = stack[top];
