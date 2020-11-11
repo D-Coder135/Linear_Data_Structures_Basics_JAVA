@@ -21,6 +21,9 @@ public class Stack {
 
     // Method to add or push values to the stack.
     public void pushElements(int data) {
+        if (top == 5) {
+
+        }
         stack[top] = data; // Adding values to the array and making it as the top value of the stack.
         top++;
     }
