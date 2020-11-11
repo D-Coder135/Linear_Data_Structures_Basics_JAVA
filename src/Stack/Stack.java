@@ -45,7 +45,8 @@ public class Stack {
     }
 
     public boolean isEmpty() {
-        return top <= 0;
+        return top <= 0; // Since the top is representing the size of the stack therefore if its equal to 0 then the
+        // stack will be considered as empty.
     }
 
     // Method to fetch or take out the value from the stack without removing that value.
