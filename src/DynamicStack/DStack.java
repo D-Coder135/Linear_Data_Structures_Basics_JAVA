@@ -34,6 +34,8 @@ public class DStack {
     private void expandArray() {
         int length = size();
         int[] newStack = new int[arraySize * 2];
+        System.arraycopy(stack, 0, newStack, 0, length);
+
     }
 
     //Method to remove or pop the values from the stack.
