@@ -12,9 +12,11 @@ public class Execution {
         DStack stackObject = new DStack();
         Scanner scanner = new Scanner(System.in);
         char choiceForPush = 'Y';
-        System.out.println("Enter values to push in the stack!");
-        int value = scanner.nextInt();
-        stackObject.pushElements(value);
+        while (choiceForPush == 'Y') {
+            System.out.println("Enter values to push in the stack!");
+            int value = scanner.nextInt();
+            stackObject.pushElements(value);
+        }
         System.out.println("Stack after pushing the values ---> ");
         stackObject.printStack();
         System.out.println();
