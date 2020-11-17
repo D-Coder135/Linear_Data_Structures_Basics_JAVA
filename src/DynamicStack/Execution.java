@@ -11,6 +11,7 @@ public class Execution {
     public static void main(String[] args) {
         DStack stackObject = new DStack();
         Scanner scanner = new Scanner(System.in);
+        char choiceForPush = 'Y';
         System.out.println("Enter values to push in the stack!");
         int value = scanner.nextInt();
         stackObject.pushElements(value);
