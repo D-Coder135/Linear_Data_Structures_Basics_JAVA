@@ -13,7 +13,7 @@ public class Execution {
         Scanner scanner = new Scanner(System.in);
         char choiceForPush = 'Y';
         while (choiceForPush == 'Y') {
-            System.out.println("Enter values to push in the stack!");
+            System.out.println("Enter a value to push in the stack!");
             int value = scanner.nextInt();
             stackObject.pushElements(value);
             System.out.println("Want to push more values (Y/N)?");
@@ -27,7 +27,6 @@ public class Execution {
         System.out.println("1. Want to peek top value." + " " + " 2. Want to pop value." + " " +
                 " 3. Want to check the size of the Stack." + " " + " 4. Want to check weather the stack is Empty or not.");
         int choice = scanner.nextInt();
-
         if (choice == 1) {
             int value = stackObject.peekElement();
             System.out.println("Top most value of the stack is: " + value);
