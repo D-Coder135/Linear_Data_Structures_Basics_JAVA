@@ -33,6 +33,7 @@ public class DStack {
 
     private void expandArray() {
         int length = size();
+        int[] newStack = new int[arraySize * 2];
     }
 
     //Method to remove or pop the values from the stack.
