@@ -58,6 +58,7 @@ public class DStack {
             arraySize = arraySize / 2;
         }
         int[] newStack = new int[arraySize];
+        System.arraycopy(stack, 0, newStack, 0, length);
     }
 
     // Method to compute the exact size of the stack.
