@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class Execution {
     public static void main(String[] args) {
-        Stack stackObject = new Stack();
+        DStack stackObject = new DStack();
         Scanner scanner = new Scanner(System.in);
         int sizeOfTheStack = 5;
         while (sizeOfTheStack != 0) {
