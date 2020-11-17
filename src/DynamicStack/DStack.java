@@ -31,6 +31,10 @@ public class DStack {
         }
     }
 
+    private void expandArray() {
+
+    }
+
     //Method to remove or pop the values from the stack.
     public int popElements() {
         int data = 0;
