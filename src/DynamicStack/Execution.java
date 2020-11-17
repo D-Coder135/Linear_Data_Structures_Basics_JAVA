@@ -11,13 +11,9 @@ public class Execution {
     public static void main(String[] args) {
         DStack stackObject = new DStack();
         Scanner scanner = new Scanner(System.in);
-        int sizeOfTheStack = 5;
-        while (sizeOfTheStack != 0) {
-            System.out.println("Enter " + sizeOfTheStack + " more values to push in the stack!");
-            int value = scanner.nextInt();
-            stackObject.pushElements(value);
-            sizeOfTheStack -= 1;
-        }
+        System.out.println("Enter values to push in the stack!");
+        int value = scanner.nextInt();
+        stackObject.pushElements(value);
         System.out.println("Stack after pushing the values ---> ");
         stackObject.printStack();
         System.out.println();
