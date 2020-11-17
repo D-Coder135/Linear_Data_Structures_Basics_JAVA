@@ -57,6 +57,7 @@ public class DStack {
         if (length <= (arraySize / 2) / 2) {
             arraySize = arraySize / 2;
         }
+        int[] newStack = new int[arraySize];
     }
 
     // Method to compute the exact size of the stack.
