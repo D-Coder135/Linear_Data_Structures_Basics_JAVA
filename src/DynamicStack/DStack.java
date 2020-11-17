@@ -16,7 +16,7 @@ public class DStack {
 
     // We will have to first create an array of size either dynamic i.e inputted by the end-user or fixed.
 
-    int arraySize = 2;
+    int arraySize = 2; // Suppose the base length of the array is 2.
     int[] stack = new int[5]; // Created an array of fixed size.
     int top = 0;
 
