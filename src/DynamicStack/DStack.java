@@ -23,7 +23,7 @@ public class DStack {
     // Method to add or push values to the stack.
     public void pushElements(int data) {
         if (size() == arraySize) {
-
+            expandArray();
         }
         stack[top] = data; // Adding values to the array and making it as the top value of the stack.
             top++;
