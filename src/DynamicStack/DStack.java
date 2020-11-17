@@ -48,6 +48,7 @@ public class DStack {
             top--;
             data = stack[top];
             stack[top] = 0;
+            shrinkArray();
         }
         return data;
     }
