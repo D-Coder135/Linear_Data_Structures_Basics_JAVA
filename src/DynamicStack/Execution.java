@@ -16,6 +16,8 @@ public class Execution {
             System.out.println("Enter values to push in the stack!");
             int value = scanner.nextInt();
             stackObject.pushElements(value);
+            System.out.println("Want to push more values (Y/N)?");
+
         }
         System.out.println("Stack after pushing the values ---> ");
         stackObject.printStack();
