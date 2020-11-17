@@ -53,7 +53,7 @@ public class DStack {
     }
 
     private void shrinkArray() {
-
+        int length = size();
     }
 
     // Method to compute the exact size of the stack.
