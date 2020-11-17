@@ -55,7 +55,7 @@ public class DStack {
     private void shrinkArray() {
         int length = size();
         if (length <= (arraySize / 2) / 2) {
-
+            arraySize = arraySize / 2;
         }
     }
 
