@@ -15,4 +15,6 @@ public class Queue {
     // And when we delete or remove values from it, then that is known as dequeue. (Just like pop in stack)
 
     int[] queue = new int[5];
+    int size;
+
 }
