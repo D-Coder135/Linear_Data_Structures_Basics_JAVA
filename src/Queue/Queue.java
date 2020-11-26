@@ -13,4 +13,6 @@ public class Queue {
 
     // In Queue, when we add something then that process is known as enqueue. (Just like push in stack)
     // And when we delete or remove values from it, then that is known as dequeue. (Just like pop in stack)
+
+    int[] queue = new int[5];
 }
