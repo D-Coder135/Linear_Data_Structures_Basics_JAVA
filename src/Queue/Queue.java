@@ -23,5 +23,5 @@ public class Queue {
 
     int[] queue = new int[5];
     int size; // To store the size of the queue.
-    int front;
+    int front; // To Store the index of the value present at the front end of the queue.
 }
