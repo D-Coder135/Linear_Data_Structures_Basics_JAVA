@@ -25,4 +25,8 @@ public class Queue {
     int size; // To store the size of the queue.
     int front; // To Store the index of the value present at the front end of the queue.
     int rear; // To Store the index of the value present at the back end of the queue.
+
+    public void enQueue(int data) {
+
+    }
 }
